@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +22,14 @@ namespace Click2.View
         public LoginView()
         {
             InitializeComponent();
+        }
+
+        private void Window_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton==MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
         }
     }
 }
