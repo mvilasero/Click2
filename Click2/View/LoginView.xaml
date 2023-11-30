@@ -24,11 +24,10 @@
             Opacity="0.95">
 
             <Border.BorderBrush>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#19323C" Offset="0"/>
-                    <GradientStop Color="#754043" Offset="0.75"/>
-                    <GradientStop Color="#7AE7C7" Offset="1"/>
-                </LinearGradientBrush>
+                    <GradientStop Color="#19323C" Offset="1"/>
+                    </LinearGradientBrush>
             </Border.BorderBrush>
 
             <Border.Background>
@@ -73,10 +72,10 @@
 
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#28AEED"/>
+                                <Setter Property="Background" Value="#19323C"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#278BEF"/>
+                                        <Setter Property="Background" Value="#19323C"/>
                                     </Trigger>
                                 </Style.Triggers>
                             </Style>
@@ -107,10 +106,10 @@
 
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#DA34AE"/>
+                                <Setter Property="Background" Value="#FF0000"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#C62DAE"/>
+                                        <Setter Property="Background" Value="#FF0000"/>
                                     </Trigger>
                                 </Style.Triggers>
                             </Style>
@@ -137,24 +136,14 @@
                     <Image Source="/Click2/Images/imgLogin.jpg"
                            Width="100" Height="100"/>
 
-                    <TextBlock Text="RJ CODE"
+                    <TextBlock Text="CLICK-2"
                                Foreground="White"
                                FontSize="25"
                                FontWeight="Medium"
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"/>
 
-                    <TextBlock Text="Learning to code is useful no matter what your career ambitions are."
-                               Foreground="LightGray"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"
-                               TextWrapping="Wrap"
-                               TextAlignment="Center"
-                               Margin="0,5,0,0"/>
-
-
-                    <TextBlock Text="Username"
+                    <TextBlock Text="Usuario"
                                Foreground="DarkGray"
                                FontSize="12"
                                FontWeight="Medium"
@@ -181,7 +170,7 @@
                         </TextBox.Background>
                     </TextBox>
 
-                    <TextBlock Text="Password"
+                    <TextBlock Text="Contraseña"
                                Foreground="DarkGray"
                                FontSize="12"
                                FontWeight="Medium"
@@ -215,15 +204,15 @@
                             FontSize="12"
                             FontFamily="Montserrat"
                             Cursor="Hand"                           
-                            Margin="0,50,0,0"
+                            Margin="0,120,0,0"
                             Click="btnLogin_Click">
 
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#462AD8"/>
+                                <Setter Property="Background" Value="#19323C"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#28AEED"/>
+                                        <Setter Property="Background" Value="#0C181D"/>
                                     </Trigger>
                                 </Style.Triggers>
                             </Style>
@@ -240,26 +229,6 @@
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
-
-                    <StackPanel Orientation="Horizontal"
-                                HorizontalAlignment="Center"
-                                Margin="0,15,0,0">
-
-                        <TextBlock Text="Forgot Password?"
-                               Foreground="DarkGray"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"/>
-
-                        <TextBlock Text="Reset"
-                               Foreground="White"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               FontFamily="Montserrat"
-                               Cursor="Hand"
-                               Margin="8,0,0,0"/>
-
-                    </StackPanel>
 
                 </StackPanel>
 
