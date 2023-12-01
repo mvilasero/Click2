@@ -5,3 +5,10 @@ C:\Users\ADM_DAM2B_15\Documents\Entorno\DI\Click2\Click2\obj\Debug\net6.0-window
 C:\Users\ADM_DAM2B_15\Documents\Entorno\DI\Click2\Click2\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\ADM_DAM2B_15\Documents\Entorno\DI\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.cache
 C:\Users\ADM_DAM2B_15\Documents\Entorno\DI\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.lref
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2\App.g.cs
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2\MainWindow.g.cs
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\View\LoginView.g.cs
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.cache
+C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.lref

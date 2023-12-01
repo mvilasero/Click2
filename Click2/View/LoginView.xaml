@@ -14,28 +14,23 @@
         MouseDown="Window_MouseDown">
 
     <Border CornerRadius="12">
-        <Border.Background>
-            <ImageBrush ImageSource="/Images/back-image.jpg"
-                        Stretch="None"/>
-        </Border.Background>
 
         <Border CornerRadius="10"                    
             BorderThickness="2"
-            Opacity="0.95">
-
-            <Border.BorderBrush>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#19323C" Offset="0"/>
-                    <GradientStop Color="#19323C" Offset="1"/>
-                    </LinearGradientBrush>
-            </Border.BorderBrush>
-
+            Opacity="0.95" Cursor="">
             <Border.Background>
-                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                    <GradientStop Color="#19323C" Offset="0"/>
-                    <GradientStop Color="#84828F" Offset="1"/>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF19323C" Offset="1"/>
+                    <GradientStop Color="#FF84828F" Offset="0.15"/>
                 </LinearGradientBrush>
             </Border.Background>
+
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#19323C" Offset="0"/>
+                    <GradientStop Color="#19323C" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
 
             <Grid>
                 <Grid.RowDefinitions>
@@ -52,8 +47,8 @@
                         <ColumnDefinition Width="5"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock Text="LOG IN"
-                               Foreground="DarkGray"
+                    <TextBlock Text="Iniciar sesión"
+                               Foreground="#FF19323C"
                                FontSize="10"
                                FontFamily="Montserrat"
                                Grid.Column="0"
@@ -68,7 +63,7 @@
                             FontFamily="Montserrat"
                             Cursor="Hand"
                             Grid.Column="1"
-                            Click="btnMinimize_Click">
+                            Click="btnMinimize_Click" Background="#FF383838">
 
                         <Button.Style>
                             <Style TargetType="Button">
@@ -102,7 +97,7 @@
                             FontFamily="Montserrat"
                             Cursor="Hand"
                             Grid.Column="2"
-                            Click="btnClose_Click">
+                            Click="btnClose_Click" Background="#FFF03B48">
 
                         <Button.Style>
                             <Style TargetType="Button">
@@ -128,23 +123,23 @@
                     </Button>
                 </Grid>
 
-                <StackPanel Width="220"
+                <StackPanel
                             Grid.Row="1"
                             Orientation="Vertical"
-                            Margin="0,35,0,0">
+                            Margin="240,18,240,18">
 
-                    <Image Source="/Click2/Images/imgLogin.jpg"
-                           Width="100" Height="100"/>
+                    <Image Source="/Images/logo.png"
+                           Width="100" Height="100" Margin="0,0,0,25"/>
 
                     <TextBlock Text="CLICK-2"
-                               Foreground="White"
+                               Foreground="Black"
                                FontSize="25"
                                FontWeight="Medium"
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"/>
 
                     <TextBlock Text="Usuario"
-                               Foreground="DarkGray"
+                               Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"                             
@@ -154,24 +149,22 @@
                              FontSize="13"
                              FontWeight="Medium"
                              FontFamily="Montserrat"                            
-                             Foreground="White"
-                             CaretBrush="LightGray"
-                             BorderBrush="DarkGray"
+                             Foreground="Black"
+                             CaretBrush="Black"
+                             BorderBrush="Black"
                              BorderThickness="0,0,0,2"
                              Height="28"
                              VerticalContentAlignment="Center"
                              Margin="0,5,0,0"
-                             Padding="20,0,0,0">
+                             Padding="20,0,0,0" Background="{x:Null}">
 
-                        <TextBox.Background>
-                            <ImageBrush ImageSource="/Images/user-icon.png"
-                                        Stretch="None"
-                                        AlignmentX="Left"/>
-                        </TextBox.Background>
+
+
+
                     </TextBox>
 
                     <TextBlock Text="Contraseña"
-                               Foreground="DarkGray"
+                               Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"                             
@@ -181,34 +174,27 @@
                              FontSize="13"
                              FontWeight="Medium"
                              FontFamily="Montserrat"                            
-                             Foreground="White"
-                             CaretBrush="LightGray"
-                             BorderBrush="DarkGray"
+                             Foreground="Black"
+                             CaretBrush="Black"
+                             BorderBrush="Black"
                              BorderThickness="0,0,0,2"
                              Height="28"
                              VerticalContentAlignment="Center"
                              Margin="0,5,0,0"
-                             Padding="20,0,0,0">
+                             Padding="20,0,0,0" Background="{x:Null}">
 
-                        <PasswordBox.Background>
-                            <ImageBrush ImageSource="/Images/key-icon.png"
-                                        Stretch="None"
-                                        AlignmentX="Left"/>
-                        </PasswordBox.Background>
                     </PasswordBox>
 
                     <Button x:Name="btnLogin"                          
                             BorderThickness="0"
-                            Content="LOG IN"
-                            Foreground="White"
+                            Content="Inicia"
                             FontSize="12"
                             FontFamily="Montserrat"
-                            Cursor="Hand"                           
-                            Margin="0,120,0,0"
-                            Click="btnLogin_Click">
+                            Cursor="Hand"
+                            Click="btnLogin_Click" Width="155" Foreground="White" VerticalContentAlignment="Center" Background="#FF383838">
 
                         <Button.Style>
-                            <Style TargetType="Button">
+                            <Style TargetType="{x:Type Button}">
                                 <Setter Property="Background" Value="#19323C"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
@@ -219,9 +205,10 @@
                         </Button.Style>
 
                         <Button.Template>
-                            <ControlTemplate TargetType="Button">
+                            <ControlTemplate TargetType="{x:Type Button}">
                                 <Border Width="150" Height="40"
-                                        CornerRadius="20"
+                                        CornerRadius="10"
+                                        Margin="0,55,0,0"
                                         Background="{TemplateBinding Background}">
                                     <ContentPresenter VerticalAlignment="Center"
                                                       HorizontalAlignment="Center"/>
@@ -231,6 +218,8 @@
                     </Button>
 
                 </StackPanel>
+
+
 
             </Grid>
 
