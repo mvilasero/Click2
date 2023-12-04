@@ -19,8 +19,6 @@ namespace Click2.ViewModel
         private string _errorMessage;
         private bool _isViewVisible = true;
 
-        private IUserRepository userRepository;
-
         //Properties
         public string Username
         {
@@ -87,7 +85,6 @@ namespace Click2.ViewModel
         //Constructor
         public LoginViewModel()
         {
-            userRepository = new UserRepository();
             LoginCommand = new ViewModelCommand(ExecuteLoginCommand, CanExecuteLoginCommand);
             RecoverPasswordCommand = new ViewModelCommand(p => ExecuteRecoverPassCommand("", ""));
         }
@@ -105,17 +102,7 @@ namespace Click2.ViewModel
 
         private void ExecuteLoginCommand(object obj)
         {
-            var isValidUser = userRepository.AuthenticateUser(new NetworkCredential(Username, Password));
-            if (isValidUser)
-            {
-                Thread.CurrentPrincipal = new GenericPrincipal(
-                    new GenericIdentity(Username), null);
-                IsViewVisible = false;
-            }
-            else
-            {
-                ErrorMessage = "* Invalid username or password";
-            }
+            throw new NotImplementedException();
         }
 
         private void ExecuteRecoverPassCommand(string username, string email)
