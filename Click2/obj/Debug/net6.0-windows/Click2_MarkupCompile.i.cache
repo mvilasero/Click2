@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\
+C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\
 Click2
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\mvila\Documents\Click2\Click2\App.xaml
-2376403462
+C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\App.xaml
+3-875975857
 
 9322267025
 194-1977528901
-MainWindow.xaml;View\LoginView.xaml;
+MainWindow.xaml;View\LoginView.xaml;View\RegisterView.xaml;
 
 False
 

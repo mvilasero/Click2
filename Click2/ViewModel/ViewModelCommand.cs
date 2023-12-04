@@ -9,11 +9,11 @@ namespace Click2.ViewModel
 {
     public class ViewModelCommand : ICommand
     {
-        //Fields
+        
         private readonly Action<object> _executeAction;
         private readonly Predicate<object> _canExecuteAction;
 
-        //Constructors
+        
         public ViewModelCommand(Action<object> executeAction)
         {
             _executeAction = executeAction;
@@ -26,14 +26,14 @@ namespace Click2.ViewModel
             _canExecuteAction = canExecuteAction;
         }
 
-        //Events
+        
         public event EventHandler CanExecuteChanged
         {
             add { CommandManager.RequerySuggested += value; }
             remove { CommandManager.RequerySuggested -= value; }
         }
 
-        //Methods
+        
         public bool CanExecute(object parameter)
         {
             return _canExecuteAction == null ? true : _canExecuteAction(parameter);

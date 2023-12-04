@@ -12,20 +12,11 @@
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
 
-    
-    <!--<Window.Resources>
-        <BooleanToVisibilityConverter x:Key="BooleanConverter"/>
-    </Window.Resources>
-    
-    <Window.Visibility>
-        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanConverter}"/>
-    </Window.Visibility>-->
-
     <Border CornerRadius="12">
 
         <Border CornerRadius="10"                    
             BorderThickness="2"
-            Opacity="0.95" Cursor="">
+            Opacity="1" Cursor="">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF19323C" Offset="1"/>
@@ -134,7 +125,7 @@
                 <StackPanel
                             Grid.Row="1"
                             Orientation="Vertical"
-                            Margin="240,18,240,18">
+                            Margin="240,0,240,0">
 
                     <Image Source="/Images/logo.png"
                            Width="100" Height="100" Margin="0,0,0,25"/>
@@ -171,7 +162,7 @@
 
                     </TextBox>
 
-                    <TextBlock Text="Contraseña"
+                    <TextBlock Text="Contrasenha"
                                Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
@@ -224,6 +215,23 @@
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                Margin="0,15,0,0">
+                        <TextBlock Text="No tienes una cuenta?"
+                               Foreground="DarkGray"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"/>
+                        <TextBlock Text="Registrate"
+                               Foreground="White"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               Cursor="Hand"
+                               Margin="8,0,0,0"/>
+                    </StackPanel>
 
                 </StackPanel>
 

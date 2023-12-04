@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mvila\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\alvaro.costa.oyola_a\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mvila\\Documents\\Click2\\Click2\\Click2.csproj",
+      "projectUniqueName": "C:\\Users\\alvaro.costa.oyola_a\\Documents\\Asignaturas\\DI\\Click2\\Click2\\Click2.csproj",
       "projectName": "Click2",
-      "projectPath": "C:\\Users\\mvila\\Documents\\Click2\\Click2\\Click2.csproj",
-      "packagesPath": "C:\\Users\\mvila\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mvila\\Documents\\Click2\\Click2\\obj\\",
+      "projectPath": "C:\\Users\\alvaro.costa.oyola_a\\Documents\\Asignaturas\\DI\\Click2\\Click2\\Click2.csproj",
+      "packagesPath": "C:\\Users\\alvaro.costa.oyola_a\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alvaro.costa.oyola_a\\Documents\\Asignaturas\\DI\\Click2\\Click2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mvila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\alvaro.costa.oyola_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
