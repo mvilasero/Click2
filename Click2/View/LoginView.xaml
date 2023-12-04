@@ -13,13 +13,13 @@
         MouseDown="Window_MouseDown">
 
     
-    <Window.Resources>
+    <!--<Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanConverter"/>
     </Window.Resources>
     
     <Window.Visibility>
         <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanConverter}"/>
-    </Window.Visibility>
+    </Window.Visibility>-->
 
     <Border CornerRadius="12">
 

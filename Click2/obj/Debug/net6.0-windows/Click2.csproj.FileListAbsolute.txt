@@ -12,8 +12,6 @@ C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug
 C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.cache
 C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.lref
-C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2\App.g.cs
-C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2\MainWindow.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\LoginView.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\App.g.cs
@@ -42,3 +40,21 @@ C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\n
 C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\Click2.pdb
 C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\Click2.genruntimeconfig.cache
 C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\ref\Click2.dll
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.exe
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.deps.json
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.runtimeconfig.json
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.dll
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.pdb
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\LoginView.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.g.resources
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.AssemblyInfoInputs.cache
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.AssemblyInfo.cs
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.csproj.CoreCompileInputs.cache
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.sourcelink.json
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.dll
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\refint\Click2.dll
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.pdb
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.genruntimeconfig.cache
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\ref\Click2.dll
