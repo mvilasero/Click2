@@ -224,13 +224,17 @@
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"/>
-                        <TextBlock Text="Registrate"
-                               Foreground="White"
+                        <Button Content="Crea una cuenta"
+                               Foreground="DarkGray"
                                FontSize="12"
                                FontWeight="Medium"
                                FontFamily="Montserrat"
                                Cursor="Hand"
-                               Margin="8,0,0,0"/>
+                               Margin="8,0,0,0" 
+                               Click="AbrirRegister"
+                               BorderBrush="{x:Null}"
+                               Background="{x:Null}"/>
+                        
                     </StackPanel>
 
                 </StackPanel>

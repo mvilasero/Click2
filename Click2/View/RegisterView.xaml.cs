@@ -46,5 +46,11 @@ namespace Click2.View
         {
             Application.Current.Shutdown();
         }
+
+        private void AbrirLogin(object sender, RoutedEventArgs e)
+        {
+            LoginView secondWindow = new LoginView();
+            secondWindow.Show();
+        }
     }
 }

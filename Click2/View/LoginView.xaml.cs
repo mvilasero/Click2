@@ -46,5 +46,11 @@ namespace Click2.View
         {
             Application.Current.Shutdown();
         }
+
+        private void AbrirRegister(object sender, RoutedEventArgs e)
+        {
+            RegisterView secondWindow = new RegisterView();
+            secondWindow.Show();
+        }
     }
 }
