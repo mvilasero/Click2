@@ -23,7 +23,6 @@ namespace Click2.View
         {
             InitializeComponent();
         }
-
         private void Window_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed)
@@ -47,10 +46,11 @@ namespace Click2.View
             Application.Current.Shutdown();
         }
 
-        private void AbrirLogin(object sender, RoutedEventArgs e)
+        private void AbrirRegister(object sender, RoutedEventArgs e)
         {
             LoginView secondWindow = new LoginView();
             secondWindow.Show();
+            this.Close();
         }
     }
 }

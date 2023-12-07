@@ -51,6 +51,7 @@ namespace Click2.View
         {
             RegisterView secondWindow = new RegisterView();
             secondWindow.Show();
+            this.Close();
         }
     }
 }

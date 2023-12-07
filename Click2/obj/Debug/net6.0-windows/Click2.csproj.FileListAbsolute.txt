@@ -60,3 +60,10 @@ C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\n
 C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\Click2.pdb
 C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\Click2.genruntimeconfig.cache
 C:\Users\alvaro.costa.oyola_a\Documents\Asignaturas\DI\Click2\Click2\obj\Debug\net6.0-windows\ref\Click2.dll
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\logo.png
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2_Content.g.cs
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\key-icon.png
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\user-icon.png
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\fondo_login.png
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\RegisterView.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\RegisterView.g.cs
