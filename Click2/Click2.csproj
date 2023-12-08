@@ -11,6 +11,8 @@
     <None Remove="Images\fondo_login.png" />
     <None Remove="Images\key-icon.png" />
     <None Remove="Images\logo.png" />
+    <None Remove="Images\logodegradadoazul.png" />
+    <None Remove="Images\logodegradadoverde.png" />
     <None Remove="Images\user-icon.png" />
   </ItemGroup>
 
@@ -24,6 +26,12 @@
     <Content Include="Images\logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\logodegradadoazul.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\logodegradadoverde.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\user-icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -31,6 +39,19 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="CustomControls\BindablePasswordBox.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="View\LoginView.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
   </ItemGroup>
 
 </Project>
