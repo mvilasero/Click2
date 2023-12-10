@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0QD0goTHbkWZj7og1RQ/UIYTW0qu1CZ2gaS41FIi4UAuWcODtH+08rQ6p66yfG4jxFGbdiJko7phUMOZ7SKDbw==",
+  "dgSpecHash": "Pdw/vEthmX4gSzzttXgIObRiuEMaBq5sfh4l91hRL8tmQtcNp64ZI/iWkP1olaZpJiHa0TdmM02K0vBwaS5xBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mvila\\Documents\\Click2\\Click2\\Click2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mvila\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
+    "C:\\Users\\mvila\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
+    "C:\\Users\\mvila\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512",
     "C:\\Users\\mvila\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\mvila\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
     "C:\\Users\\mvila\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.5\\k4os.compression.lz4.streams.1.3.5.nupkg.sha512",

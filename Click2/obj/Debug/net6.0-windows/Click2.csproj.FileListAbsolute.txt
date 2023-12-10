@@ -93,3 +93,7 @@ C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\logodegra
 C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\logodegradadoverde.png
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\MainView.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\MainView.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Styles\UIColors.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Styles\ButtonStyles.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\App.baml
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
