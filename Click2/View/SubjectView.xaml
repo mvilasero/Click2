@@ -1,0 +1,162 @@
+﻿<UserControl x:Class="Click2.View.SubjectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Click2.View"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="0,0,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+                <Border CornerRadius="10,10,0,0" Padding="5" Background="{StaticResource color7}">
+                    <StackPanel Grid.Row="0" Background="{StaticResource color7}" Orientation="Horizontal" UseLayoutRounding="False">
+                        <fa:IconImage Icon="Message" Width="30" VerticalAlignment="Center" Margin="20" Foreground="White"/>
+                        <TextBlock Text="Comunicacion" VerticalAlignment="Center" Foreground="White" FontSize="24"/>
+                    </StackPanel>
+                </Border>
+                <!-- Content for the second part of the box with white background -->
+                <Border Grid.Row="1" CornerRadius="0,0,10,10" Padding="5" Background="White">
+                    <Grid Grid.Row="1" Background="White">
+                        <ListBox FontSize="20" Margin="20,20,0,0" BorderBrush="Transparent">
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Mensajeria" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Charla con el tutor" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Carpeta Publica" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Novedades" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Avisos del tutor" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Dia a dia" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+
+                            <!-- Repite este patrón para los demás elementos -->
+                        </ListBox>
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="1" Margin="0,0,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+                <Border CornerRadius="10,10,0,0" Padding="5" Background="{StaticResource color6}">
+                    <StackPanel Grid.Row="0" Background="{StaticResource color6}" Orientation="Horizontal" UseLayoutRounding="False">
+                        <fa:IconImage Icon="LayerGroup" Width="30" VerticalAlignment="Center" Margin="20" Foreground="White"/>
+                        <TextBlock Text="Academicos" VerticalAlignment="Center" Foreground="White" FontSize="24"/>
+                    </StackPanel>
+                </Border>
+                <!-- Content for the second part of the box with white background -->
+                <Border Grid.Row="1" CornerRadius="0,0,10,10" Padding="5" Background="White">
+                    <Grid Grid.Row="1" Background="White">
+                        <ListBox FontSize="20" Margin="20,20,0,0" BorderBrush="Transparent">
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Cartelera" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Recomendaciones" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Actividad Trabajada" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                        </ListBox>
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="2" Margin="0,0,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+                <Border CornerRadius="10,10,0,0" Padding="5" Background="{StaticResource color8}">
+                    <StackPanel Grid.Row="0" Background="{StaticResource color8}" Orientation="Horizontal" UseLayoutRounding="False">
+                        <fa:IconImage Icon="handshake" Width="30" VerticalAlignment="Center" Margin="20" Foreground="White"/>
+                        <TextBlock Text="Servicios" VerticalAlignment="Center" Foreground="White" FontSize="24"/>
+                    </StackPanel>
+                </Border>
+                <!-- Content for the second part of the box with white background -->
+                <Border Grid.Row="1" CornerRadius="0,0,10,10" Padding="5" Background="White">
+                    <Grid Grid.Row="1" Background="White">
+                        <ListBox FontSize="20" Margin="20,20,0,0" BorderBrush="Transparent">
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Extraescolares" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Acojida" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Transporte" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <ListBoxItem Margin="0,0,0,15">
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:IconImage Icon="Circle" IconFont="Solid" Width="10" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Comedor" Margin="20,0,0,0"/>
+                                </StackPanel>
+                            </ListBoxItem>
+                            <!-- Repite este patrón para los demás elementos -->
+                        </ListBox>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

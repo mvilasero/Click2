@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\mvila\Documents\Click2\Click2\App.xaml
-7791752255
-6527207576
-161187931468
+9-423331642
+91243493422
+20-1117673727
 212-1597833581
-CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;View\LoginView.xaml;View\MainView.xaml;View\RegisterView.xaml;
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;View\HomeView.xaml;View\LoginView.xaml;View\MainView.xaml;View\RegisterView.xaml;View\SubjectView.xaml;
 
 False
 

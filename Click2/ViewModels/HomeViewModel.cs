@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Click2.ViewModels
 {
-    class HomeViewModel
+    public class HomeViewModel : ViewModelBase
     {
+       
     }
 }

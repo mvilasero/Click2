@@ -12,7 +12,6 @@ C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug
 C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.cache
 C:\Users\ADM_DAM2B_16\Documents\Desarrollo de Interfaces\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.lref
-C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\LoginView.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2_MarkupCompile.cache
@@ -23,7 +22,6 @@ C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.runtimeco
 C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.dll
 C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Click2.pdb
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\LoginView.baml
-C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.g.resources
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Click2.AssemblyInfoInputs.cache
@@ -97,3 +95,12 @@ C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Styles\UIColors.
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\Styles\ButtonStyles.baml
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\App.baml
 C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\HomeView.g.cs
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\HomeView.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\prueba.png
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\child.png
+C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\ControlPanel.png
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\SubjectView.g.cs
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\SubjectView.baml

@@ -8,11 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/child.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/controlpanel.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/fondo_login.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/key-icon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logodegradadoazul.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logodegradadoverde.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/prueba.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/user-icon.png")]
 
 
