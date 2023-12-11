@@ -27,13 +27,11 @@
     </Window.Visibility>
 
     <Grid>
-        <!-- Columna Izquierda (Código) -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Border Grid.Column="0">
-            <!-- Contenido de la columna izquierda -->
             <Border CornerRadius="0" BorderThickness="0" Opacity="1" Cursor="">
                 <Border.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -101,7 +99,7 @@
                                FontFamily="Montserrat"                             
                                Margin="0,10,0,0"
                                TextWrapping="Wrap"/>
-                    
+
                     <Button x:Name="btnLogin"
                                 Command="{Binding LoginCommand}"
                                 BorderThickness="0"
@@ -112,7 +110,7 @@
                                 Cursor="Hand"                    
                                 Margin="0,20,0,0">
 
-                            <Button.Style>
+                        <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#D97059"/>
                                 <Style.Triggers>
@@ -159,8 +157,6 @@
                 </StackPanel>
             </Border>
         </Border>
-
-        <!-- Columna Derecha (Logo) -->
         <Border Grid.Column="1" CornerRadius="12">
             <Grid>
                 <Image Source="/Images/fondo_login.png" Stretch="UniformToFill" />

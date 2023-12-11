@@ -30,7 +30,6 @@
                         <TextBlock Text="Comunicacion" VerticalAlignment="Center" Foreground="White" FontSize="24"/>
                     </StackPanel>
                 </Border>
-                <!-- Content for the second part of the box with white background -->
                 <Border Grid.Row="1" CornerRadius="0,0,10,10" Padding="5" Background="White">
                     <Grid Grid.Row="1" Background="White">
                         <ListBox FontSize="20" Margin="20,20,0,0" BorderBrush="Transparent">
@@ -70,8 +69,6 @@
                                     <TextBlock Text="Dia a dia" Margin="20,0,0,0"/>
                                 </StackPanel>
                             </ListBoxItem>
-
-                            <!-- Repite este patrón para los demás elementos -->
                         </ListBox>
                     </Grid>
                 </Border>
@@ -87,7 +84,6 @@
                         <TextBlock Text="Academicos" VerticalAlignment="Center" Foreground="White" FontSize="24"/>
                     </StackPanel>
                 </Border>
-                <!-- Content for the second part of the box with white background -->
                 <Border Grid.Row="1" CornerRadius="0,0,10,10" Padding="5" Background="White">
                     <Grid Grid.Row="1" Background="White">
                         <ListBox FontSize="20" Margin="20,20,0,0" BorderBrush="Transparent">
@@ -124,7 +120,6 @@
                         <TextBlock Text="Servicios" VerticalAlignment="Center" Foreground="White" FontSize="24"/>
                     </StackPanel>
                 </Border>
-                <!-- Content for the second part of the box with white background -->
                 <Border Grid.Row="1" CornerRadius="0,0,10,10" Padding="5" Background="White">
                     <Grid Grid.Row="1" Background="White">
                         <ListBox FontSize="20" Margin="20,20,0,0" BorderBrush="Transparent">
@@ -152,7 +147,6 @@
                                     <TextBlock Text="Comedor" Margin="20,0,0,0"/>
                                 </StackPanel>
                             </ListBoxItem>
-                            <!-- Repite este patrón para los demás elementos -->
                         </ListBox>
                     </Grid>
                 </Border>
