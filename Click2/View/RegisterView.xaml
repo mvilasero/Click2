@@ -131,7 +131,7 @@
                             FontFamily="Montserrat"
                             Cursor="Hand"                           
                             Margin="0,50,0,0"
-                            Click="btnLogin_Click">
+                            Click="AbrirRegister">
 
                         <Button.Style>
                             <Style TargetType="Button">

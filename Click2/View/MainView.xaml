@@ -25,7 +25,9 @@
         <DataTemplate DataType="{x:Type viewModel:SubjectViewModel}">
             <local:SubjectView/>
         </DataTemplate>
-
+        <DataTemplate DataType="{x:Type viewModel:CalendarViewModel}">
+            <local:CalendarView/>
+        </DataTemplate>
     </Window.Resources>
 
     <Border CornerRadius="10"                    
@@ -62,7 +64,7 @@
                                    Margin="10,0,0,0"/>
                     </StackPanel>
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color2}"
+                                 Tag="{StaticResource color1}"
                                  IsChecked="True"
                                  Command="{Binding ShowHomeViewCommand}">
                         <StackPanel Orientation="Horizontal">
@@ -71,8 +73,8 @@
                         </StackPanel>
                     </RadioButton>
                     <RadioButton Style="{StaticResource menuButton}"
-                                 Tag="{StaticResource color1}"
-                                 Command="{Binding ShowCustomerViewCommand}">
+                                 Tag="{StaticResource color2}"
+                                 Command="{Binding ShowSubjectViewCommand}">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="bookmark" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Materias" Style="{StaticResource menuButtonText}"/>
@@ -80,7 +82,7 @@
                     </RadioButton>
                     <RadioButton Style="{StaticResource menuButton}"
              Tag="{StaticResource color4}"
-             Command="{Binding ShowCustomerViewCommand}">
+             Command="{Binding ShowCalendarViewCommand}">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="calendar" Style="{StaticResource menuButtonIcon}"/>
                             <TextBlock Text="Calendario" Style="{StaticResource menuButtonText}"/>

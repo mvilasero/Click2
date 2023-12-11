@@ -81,7 +81,8 @@ namespace Click2.ViewModels
 
         //--> Commands
         public ICommand ShowHomeViewCommand { get; }
-        public ICommand ShowCustomerViewCommand { get; }
+        public ICommand ShowSubjectViewCommand { get; }
+        public ICommand ShowCalendarViewCommand { get; }
 
         public MainViewModel()
         {
@@ -90,12 +91,20 @@ namespace Click2.ViewModels
 
             //Initialize commands
             ShowHomeViewCommand = new ViewModelCommand(ExecuteShowHomeViewCommand);
-            ShowCustomerViewCommand = new ViewModelCommand(ExecuteShowSubjectViewCommand);
+            ShowSubjectViewCommand = new ViewModelCommand(ExecuteShowSubjectViewCommand);
+            ShowCalendarViewCommand = new ViewModelCommand(ExecuteShowCalendarViewCommand);
 
             //Default view
             ExecuteShowHomeViewCommand(null);
 
             LoadCurrentUserData();
+        }
+
+        private void ExecuteShowHomeViewCommand(object obj)
+        {
+            CurrentChildView = new HomeViewModel();
+            Caption = "Inicio";
+            Icon = IconChar.Home;
         }
 
         private void ExecuteShowSubjectViewCommand(object obj)
@@ -104,12 +113,11 @@ namespace Click2.ViewModels
             Caption = "Materias";
             Icon = IconChar.Bookmark;
         }
-
-        private void ExecuteShowHomeViewCommand(object obj)
+        private void ExecuteShowCalendarViewCommand(object obj)
         {
-            CurrentChildView = new HomeViewModel();
-            Caption = "Inicio";
-            Icon = IconChar.Home;
+            CurrentChildView = new CalendarViewModel();
+            Caption = "Calendario";
+            Icon = IconChar.Calendar;
         }
         private void LoadCurrentUserData()
         {

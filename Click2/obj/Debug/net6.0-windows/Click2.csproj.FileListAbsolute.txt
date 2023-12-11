@@ -104,3 +104,5 @@ C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\child.png
 C:\Users\mvila\Documents\Click2\Click2\bin\Debug\net6.0-windows\Images\ControlPanel.png
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\SubjectView.g.cs
 C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\SubjectView.baml
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\CalendarView.g.cs
+C:\Users\mvila\Documents\Click2\Click2\obj\Debug\net6.0-windows\View\CalendarView.baml
